@@ -14,7 +14,7 @@ use Monolog\Logger;
  * @link https://support.logz.io/hc/en-us/categories/201158705-Log-Shipping
  * @link https://app.logz.io/#/dashboard/data-sources/Bulk-HTTPS
  */
-final class LogzIoHandler extends AbstractProcessingHandler
+class LogzIoHandler extends AbstractProcessingHandler
 {
     const HOST_EU = 'listener-eu.logz.io';
     const HOST_US = 'listener.logz.io';
